@@ -24,7 +24,7 @@ public class StepDefnition extends Base_Class {
 
 		@When("^scroll down to sign in$")
 		public void scroll_down_to_sign_in() throws Throwable {
-		//	https://github.com/Gayathrig-mediwave/automation.git
+		
 		    throw new PendingException();
 		}
 
