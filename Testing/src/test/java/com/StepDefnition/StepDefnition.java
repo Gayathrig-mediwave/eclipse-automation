@@ -24,7 +24,7 @@ public class StepDefnition extends Base_Class {
 
 		@When("^scroll down to sign in$")
 		public void scroll_down_to_sign_in() throws Throwable {
-		    // Write code here that turns the phrase above into concrete actions
+			jsScrollDownElement(sl.getMain().getSign_in());
 		    throw new PendingException();
 		}
 
