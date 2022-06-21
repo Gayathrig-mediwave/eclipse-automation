@@ -18,7 +18,7 @@ public class StepDefnition extends Base_Class {
 	public static Singleton sl=new Singleton(driver);
 		@Given("^Pass the Url$")
 		public void pass_the_Url() throws Throwable {
-		    // Write code here that turns the phrase above into concrete actions
+			geturl("https://staging.acacium.mindwave.site/");
 		    throw new PendingException();
 		}
 
