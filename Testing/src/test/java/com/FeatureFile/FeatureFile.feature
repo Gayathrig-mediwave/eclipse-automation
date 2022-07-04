@@ -9,30 +9,19 @@ And  wait for some seconds
 And click sign in button
 And User inputs the email id 
 And user enters the password
-And user enters the password
 And user clicks not robot
 And user clicks enter
-And user press 'control' key
-And user press 't' key
-And user gives a delay
-And user navigates to new tab
-And user open mailinator page
-And gives a delay for dialog box
-And user closes the dialog box
-And user enters the mailid
-And user searches the user
-And user waits to see the code
-And user opens the link
-And user switches into frame 1
-And user double clicks the code
-And user comes out of the frame
-And user should press 'control' key
-And user should press 'c' key
-And user comes back to the previous tab
-And user should again press 'control' key
-And user should press 'v' key
-And user delays to verify
-Then click verify
+And waits to press ctrl key
+And user creates a robot class
+And user creates a list to switch between tabs to fetch the otp
+And user should paste code using robo class
+And user allows delay to verify
+Then user clicks verify
+
+@InitialAssessmentAppointmentBooking
+Scenario: Initial Assessment Appointment Booking
+Given get the book assessment value
+When book assessment value is true 
 
 
 

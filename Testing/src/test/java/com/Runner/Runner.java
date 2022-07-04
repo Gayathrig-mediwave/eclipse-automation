@@ -27,6 +27,6 @@ public class Runner {
 	}
 	@AfterClass
 	public static void TearDown() {
-		driver.close();
+		//driver.close();
 	}
 }

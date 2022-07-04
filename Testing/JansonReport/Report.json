@@ -12,9 +12,8 @@
         "steps": [
           {
             "result": {
-              "duration": 62590646,
-              "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat com.StepDefnition.StepDefnition.pass_the_Url(StepDefnition.java:22)\n\tat ✽.Given Pass the Url(src/test/java/com/FeatureFile/FeatureFile.feature:6)\n",
-              "status": "pending"
+              "duration": 2268789182,
+              "status": "passed"
             },
             "line": 6,
             "name": "Pass the Url",
@@ -25,7 +24,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 25987736,
+              "status": "passed"
             },
             "line": 7,
             "name": "scroll down to sign in",
@@ -36,7 +36,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2000160988,
+              "status": "passed"
             },
             "line": 8,
             "name": "wait for some seconds",
@@ -47,7 +48,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1721255221,
+              "status": "passed"
             },
             "line": 9,
             "name": "click sign in button",
@@ -58,7 +60,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 55578839,
+              "status": "passed"
             },
             "line": 10,
             "name": "User inputs the email id",
@@ -69,7 +72,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 45328642,
+              "status": "passed"
             },
             "line": 11,
             "name": "user enters the password",
@@ -80,20 +84,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 178930500,
+              "status": "passed"
             },
             "line": 12,
-            "name": "user enters the password",
-            "match": {
-              "location": "StepDefnition.user_enters_the_password()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 13,
             "name": "user clicks not robot",
             "match": {
               "location": "StepDefnition.user_clicks_not_robot()"
@@ -102,9 +96,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 99009558,
+              "status": "passed"
             },
-            "line": 14,
+            "line": 13,
             "name": "user clicks enter",
             "match": {
               "location": "StepDefnition.user_clicks_enter()"
@@ -113,238 +108,73 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2000123010,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "waits to press ctrl key",
+            "match": {
+              "location": "StepDefnition.waits_to_press_ctrl_key()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1150905954,
+              "status": "passed"
             },
             "line": 15,
-            "name": "user press \u0027control\u0027 key",
+            "name": "user creates a robot class",
             "match": {
-              "location": "StepDefnition.user_press_control_key()"
+              "location": "StepDefnition.user_creates_a_robot_class()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2382106316,
+              "status": "passed"
             },
             "line": 16,
-            "name": "user press \u0027t\u0027 key",
+            "name": "user creates a list to switch between tabs to fetch the otp",
             "match": {
-              "location": "StepDefnition.user_press_t_key()"
+              "location": "StepDefnition.user_creates_a_list_to_switch_between_tabs_to_fetch_the_otp()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 88675948,
+              "status": "passed"
             },
             "line": 17,
-            "name": "user gives a delay",
+            "name": "user should paste code using robo class",
             "match": {
-              "location": "StepDefnition.user_gives_a_delay()"
+              "location": "StepDefnition.user_should_paste_code_using_robo_class()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3000157048,
+              "status": "passed"
             },
             "line": 18,
-            "name": "user navigates to new tab",
+            "name": "user allows delay to verify",
             "match": {
-              "location": "StepDefnition.user_navigates_to_new_tab()"
+              "location": "StepDefnition.user_allows_delay_to_verify()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 47424755,
+              "status": "passed"
             },
             "line": 19,
-            "name": "user open mailinator page",
+            "name": "user clicks verify",
             "match": {
-              "location": "StepDefnition.user_open_mailinator_page()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 20,
-            "name": "gives a delay for dialog box",
-            "match": {
-              "location": "StepDefnition.gives_a_delay_for_dialog_box()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 21,
-            "name": "user closes the dialog box",
-            "match": {
-              "location": "StepDefnition.user_closes_the_dialog_box()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 22,
-            "name": "user enters the mailid",
-            "match": {
-              "location": "StepDefnition.user_enters_the_mailid()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 23,
-            "name": "user searches the user",
-            "match": {
-              "location": "StepDefnition.user_searches_the_user()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 24,
-            "name": "user waits to see the code",
-            "match": {
-              "location": "StepDefnition.user_waits_to_see_the_code()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 25,
-            "name": "user opens the link",
-            "match": {
-              "location": "StepDefnition.user_opens_the_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 26,
-            "name": "user switches into frame 1",
-            "match": {
-              "arguments": [
-                {
-                  "val": "1",
-                  "offset": 25
-                }
-              ],
-              "location": "StepDefnition.user_switches_into_frame(int)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 27,
-            "name": "user double clicks the code",
-            "match": {
-              "location": "StepDefnition.user_double_clicks_the_code()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 28,
-            "name": "user comes out of the frame",
-            "match": {
-              "location": "StepDefnition.user_comes_out_of_the_frame()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 29,
-            "name": "user should press \u0027control\u0027 key",
-            "match": {
-              "location": "StepDefnition.user_should_press_control_key()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 30,
-            "name": "user should press \u0027c\u0027 key",
-            "match": {
-              "location": "StepDefnition.user_should_press_c_key()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 31,
-            "name": "user comes back to the previous tab",
-            "match": {
-              "location": "StepDefnition.user_comes_back_to_the_previous_tab()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 32,
-            "name": "user should again press \u0027control\u0027 key",
-            "match": {
-              "location": "StepDefnition.user_should_again_press_control_key()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 33,
-            "name": "user should press \u0027v\u0027 key",
-            "match": {
-              "location": "StepDefnition.user_should_press_v_key()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 34,
-            "name": "user delays to verify",
-            "match": {
-              "location": "StepDefnition.user_delays_to_verify()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 35,
-            "name": "click verify",
-            "match": {
-              "location": "StepDefnition.click_verify()"
+              "location": "StepDefnition.user_clicks_verify()"
             },
             "keyword": "Then "
           }
@@ -353,6 +183,20 @@
           {
             "line": 4,
             "name": "@Signin"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Initial Assessment",
+        "description": "",
+        "id": "acacium-portal;initial-assessment",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "tags": [
+          {
+            "line": 21,
+            "name": "@InitialAssessment"
           }
         ]
       }

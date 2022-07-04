@@ -87,7 +87,7 @@ public class Base_Class {
 	public static void screenshot(String file) throws Exception {
 		TakesScreenshot shot = (TakesScreenshot) driver;
 		File sou = shot.getScreenshotAs(OutputType.FILE);
-		File Des = new File(System.getProperty("user.dir") + "\\Screenshot\\" + file);
+		File Des = new File(System.getProperty("user.dir") + "/Screenshot/" + file);
 		FileUtils.copyFile(sou, Des);
 	}
 
@@ -105,4 +105,9 @@ public class Base_Class {
 		String text2 = text.getText();
 		return text2;
 	}
+	// Scroll down
+		public static void ScrollDown(String Scroll) {
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+			js.executeScript(Scroll);
+		}
 }
